@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    { "source": "/about", "destination": "/" },
+    { "source": "/about/:path*", "destination": "/" },
+    { "source": "/contact", "destination": "/" },
+    { "source": "/contact/:path*", "destination": "/" },
+    { "source": "/sage", "destination": "/" },
+    { "source": "/sage/:path*", "destination": "/" },
+    { "source": "/project-sage", "destination": "/" },
+    { "source": "/project-sage/:path*", "destination": "/" }
+  ]
+}
